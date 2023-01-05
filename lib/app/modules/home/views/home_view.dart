@@ -74,7 +74,7 @@ class HomeView extends GetView<HomeController> {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Container(
-      height: height * 0.20,
+      height: height * 0.25,
       width: width * 0.9,
       decoration: BoxDecoration(
         color: ThemeAPP.colors.cardsTone.cardSearchTone.withOpacity(0.10),
@@ -95,7 +95,7 @@ class HomeView extends GetView<HomeController> {
               ),
             ),
             Positioned(
-              top: height * 0.04,
+              top: height * 0.06,
               child: Text(
                 "Todas as espécies de pokemons\n estão esperando por você!",
                 style: TextStyle(
@@ -107,7 +107,7 @@ class HomeView extends GetView<HomeController> {
             ),
             Positioned(
               right: width * 0.10,
-              top: height * 0.025,
+              top: height * 0.07,
               child: Image.asset(
                 Assets.pikachu,
               ),

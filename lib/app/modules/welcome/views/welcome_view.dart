@@ -77,7 +77,8 @@ class WelcomeView extends GetView<WelcomeController> {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     return SizedBox(
-      width: MediaQuery.of(context).size.width * 0.9,
+      width: MediaQuery.of(context).size.width * 0.8,
+      height: MediaQuery.of(context).size.width * 0.8,
       child: Stack(
         children: [
           Image.asset(Assets.icPokemon),

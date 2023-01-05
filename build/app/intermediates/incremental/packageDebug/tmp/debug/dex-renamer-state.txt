@@ -1,0 +1,4 @@
+#Thu Jan 05 17:00:59 AMT 2023
+base.0=/Users/rickramos/Documents/Projetos/pokedex/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
